@@ -7,20 +7,20 @@ import { Fade } from "react-awesome-reveal";
 
 import Button from "../elements/Button";
 
-import BuildWebsite from "../assets/images/hero/BuildWebsite.png";
+import BuildWebsite from "../assets/images/hero/heroImage.png";
 
 export default function Hero() {
   return (
     <section className="hero">
       <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
-        <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
-          Growing Your Business <br />
-          Is Our Calling
+      <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
+          Empowering Your Business Through Innovation and Technology
         </h1>
 
         <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
-          We provide developers & designers using latest technologies to help
-          you scale up your business.
+          We specialize in crafting cutting-edge software solutions, 
+          from web and mobile development to product design, that drive business growth and digital 
+          transformation.
         </p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button

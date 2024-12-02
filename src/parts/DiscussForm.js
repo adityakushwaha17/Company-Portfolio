@@ -22,27 +22,27 @@ export const DiscussForm = (actions) => {
   const { data, resetForm } = actions;
   const submitEmail = () => {
     const {
-      name, company, email, phone, projectIdea,
+      name, experience, email, phone, projectIdea,
     } = data;
 
     const templateParams = {
-      from_name: `${name} - ${company} ( ${phone} - ${email} )`,
-      to_name: 'Racxstudio',
+      from_name: `${name} - ${experience} ( ${phone} - ${email} )`,
+      to_name: 'kushwahaaditya40166@gmail.com',
       message: projectIdea,
     };
 
     if (
       name !== ''
-      && company !== ''
+      && experience !== ''
       && email !== ''
       && phone !== ''
       && projectIdea !== ''
     ) {
       emailjs.send(
-        'service_h4gtndg',
-        'template_a9tvs7a',
+        'service_80ams17',
+        'template_dj1np2m',
         templateParams,
-        'user_csqIxzN5mKsl1yw4ffJzV',
+        '5furuMTTRHCaTSq76',
       )
         .then(() => {
           toast.success('Success! we\'\ll get back to you soon. Thank you!');
@@ -82,11 +82,11 @@ export const DiscussForm = (actions) => {
               onChange={actions.onChange}
             />
             <Form
-              id="company"
-              name="company"
+              id="experience"
+              name="experience"
               type="text"
-              value={data.company}
-              placeholder="Your company"
+              value={data.experience}
+              placeholder="Experience"
               className=""
               onChange={actions.onChange}
             />
@@ -119,7 +119,7 @@ export const DiscussForm = (actions) => {
               name="projectIdea"
               type="textarea"
               value={data.projectIdea}
-              placeholder="Explain about your project idea"
+              placeholder="Tell us about your project"
               className=""
               onChange={actions.onChange}
             />

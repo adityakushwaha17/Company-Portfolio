@@ -12,11 +12,11 @@ export default function Service({ data }) {
     <div className="bg-gray-50">
       <div className="container mx-auto pt-20 pb-28">
         <Fade direction="right" triggerOnce>
-          <h1 className="text-5xl text-theme-blue text-center font-bold">Our Service</h1>
+          <h1 className="text-5xl text-theme-blue text-center font-bold">Internship Oppertunities</h1>
         </Fade>
         <Fade direction="left" triggerOnce>
           <p className="font-light text-lg text-gray-400 text-center mb-12">
-            We are ready to scale up your business with our great service.
+          We offers internships across domains, providing hands-on experience with real projects.
           </p>
         </Fade>
 
