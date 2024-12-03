@@ -3,7 +3,7 @@
 // Services Img Imports
 import Web from '../assets/images/Services/Web.png';
 import Mobile from '../assets/images/Services/Mobile.png';
-import UIUX from '../assets/images/Services/Design.png';
+import Software from '../assets/images/Services/Software.png';
 
 // Portfolio Img Imports
 // import Recruiting from '../assets/images/Portfolio/Recruiting.png';
@@ -46,7 +46,7 @@ export const Services = [
   },
   {
     title: 'Software Development',
-    imageUrl: UIUX,
+    imageUrl: Software,
     animation: 'left',
   },
 ];
@@ -69,7 +69,7 @@ export const Portfolios = [
     id: 'project2',
     title: 'Laundry Website Project',
     imageUrl: ManagementApp,
-    type: 'Web Platform',
+    type: 'Website',
     responsibility: [
       'Web platform for laundry service management',
       'MERN stack development',
@@ -80,7 +80,7 @@ export const Portfolios = [
     id: 'project3',
     title: 'E-commerce Projects',
     imageUrl: Surtido,
-    type: 'Frontend Development',
+    type: 'Website',
     responsibility: [
       'Visually appealing and functional websites',
       'Internship at InternPE',

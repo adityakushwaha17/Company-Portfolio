@@ -27,7 +27,7 @@ export const DiscussForm = (actions) => {
 
     const templateParams = {
       from_name: `${name} - ${experience} ( ${phone} - ${email} )`,
-      to_name: 'kushwahaaditya40166@gmail.com',
+      to_name: 'sproox.s.x@gmail.com',
       message: projectIdea,
     };
 
@@ -39,10 +39,10 @@ export const DiscussForm = (actions) => {
       && projectIdea !== ''
     ) {
       emailjs.send(
-        'service_80ams17',
-        'template_dj1np2m',
+        'service_lhub6qr',
+        'template_z9s6pfi',
         templateParams,
-        '5furuMTTRHCaTSq76',
+        'XaU4sx5GaVWf6YIC1',
       )
         .then(() => {
           toast.success('Success! we\'\ll get back to you soon. Thank you!');
