@@ -18,7 +18,7 @@ export default function Footer() {
               Software 
               {' '}
               <br />
-              Solution
+              Solution (OPC)  Private Limited 
             </p>
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">

@@ -36,16 +36,19 @@ import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
 export const Services = [
   {
     title: 'Web Development',
+    skill: 'MernStack',
     imageUrl: Web,
     animation: 'left',
   },
   {
     title: 'Mobile Development',
+    skill: 'Flutter',
     imageUrl: Mobile,
     animation: 'up',
   },
   {
     title: 'Software Development',
+    skill: 'Django',
     imageUrl: Software,
     animation: 'left',
   },

@@ -17,7 +17,7 @@ export default function HeroPortfolio() {
         </Fade>
         <Fade direction="up" triggerOnce delay={400}>
           <p className="font-light text-xl text-gray-400 leading-relaxed">
-            As a Software House that designs and develops websites, mobile apps, and UI/UX design, we have been trusted by our clients from all around the world.
+            We specialize in creating innovative and tailored solutions for businesses worldwide. From websites to mobile apps and UI/UX designs, we deliver high-quality results that drive success.
           </p>
         </Fade>
       </div>
